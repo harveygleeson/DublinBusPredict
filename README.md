@@ -9,3 +9,19 @@ Django connects to an Amazon RDS service, which holds current bus route informat
 The frontend is built with ReactJS. The `components` folder holds all UI components, such as `map`, `navbar`, and `weather` features. All features are accessed via modals which hover over the map, which are stored in the `Modals` folder. This folder contains files for `JourneyPlannerModal`, `RoutesModal`, and `ChooseRouteModal`, as well as an overall `Modal` file which is responsible for holding the contents of what is to be displayed (similar to a card).
 
 Testing is implemented with React Testing Library for each of the components, to ensure they mount correctly, and that correct data is passed between them via props and held in component state.
+
+## Screenshots
+
+### Home screen for web app upon opening on laptop:
+
+<img src="assets/Screenshot 2023-01-06 at 13.49.59.png" width="600" alt="webapp">
+
+### Home screen for web app upon opening on mobile/tablet:
+
+<img src="assets/Screenshot 2023-01-06 at 14.13.44.png" width="300" alt="phoneapp">
+
+### Home screen for web app with journey planner display:
+<img src="assets/Screenshot 2023-01-06 at 13.50.36.png" width="300" alt="phoneapp with journey planner">
+
+### Home screen for web app with future journey planner display:
+<img src="assets/Screenshot 2023-01-06 at 13.50.55.png" width="300" alt="phoneapp with future journey planner">
